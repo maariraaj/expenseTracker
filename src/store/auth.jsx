@@ -23,6 +23,7 @@ const authSlice = createSlice({
         logout(state) {
             state.token = '';
             localStorage.removeItem("token");
+            localStorage.removeItem("email");
             state.isLoggedIn = false;
         }
     }
@@ -30,6 +31,6 @@ const authSlice = createSlice({
 
 export const authActions = authSlice.actions;
 
-export const {login, logout}=authSlice.actions;
+export const { login, logout } = authSlice.actions;
 
 export default authSlice.reducer;
