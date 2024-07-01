@@ -19,7 +19,7 @@ const MainNavigation = () => {
                 <div className="container-fluid">
                     <NavLink className="navbar-brand" to='/'>
                         <img src="/finance-svgrepo-com.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
-                        <strong>Expense Tracker</strong>
+                        <strong>Piggy Banker</strong>
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
